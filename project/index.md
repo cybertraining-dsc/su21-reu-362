@@ -1,12 +1,11 @@
-
 ---
 date: 2021-06-16
 title: "AI in Healthcare"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
-author: Kehinde, Ezekiel
-github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
+author: "Kehinde Ezekiel"
+github_url: "https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md"
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
