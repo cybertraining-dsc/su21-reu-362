@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "AI in Healthcare"
+title: "Breast Cancer and Genetics"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
@@ -62,20 +62,24 @@ Do not include this tip in your document:
 - [ ] Identify the concrete algorithm that is used to analyze the datasets
 - [ ] Write the program
 - [ ] Verify that it works
+
+## 6. Datasets
+
+The dataset contains target sequencing data for about 1680 patients with breast cancer.
    
-## 6. Benchmark
+## 7. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 6. Conclusion
+## 8. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 8. Acknowledgments
+## 9. Acknowledgments
 - [ ] Gregor guided me through this process
 Please add acknowledgments to all that contributed or helped on this project.  
 
-## 9. References
+## 10. References
 
 - [ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
       one point automatically change the references from superscript to square brackets it is best to introduce a space before 
