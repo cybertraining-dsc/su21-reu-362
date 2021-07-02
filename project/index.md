@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Breast Cancer and Genetics"
-linkTitle: Example
+linkTitle: Breast Cancer
 tags: ["project", "reu"]
 description: "Here comes the abstract"
 author: "Kehinde Ezekiel"
