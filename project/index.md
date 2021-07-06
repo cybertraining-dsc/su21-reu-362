@@ -7,9 +7,7 @@ description: "This project describes two machine learning algorithms -name them-
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
 resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
----
+
 
 Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-362), [Edit](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md)
 
@@ -61,7 +59,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 ## 8. Acknowledgments
 
 - [ ] Gregor guided me through this process
-- [ ] Please add acknowledgments to all that contributed or helped on this project.  
+- [ ] Please add acknowledgments to all that contributed or helped on this project.
 
 ## 9. References
 
@@ -70,7 +68,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 [^2]: Centers for Disease Control and Prevention, Breast Cancer [Online] 
       <https://www.cdc.gov/cancer/breast/basic_info/diagnosis.htm>
 
-[^3]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677  
+[^3]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677
 
 [^4]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
       <https://github.com/cloudmesh/cloudmesh-common>
