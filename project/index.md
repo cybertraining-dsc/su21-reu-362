@@ -7,7 +7,9 @@ description: "This project describes two machine learning algorithms -name them-
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
 resources:
-
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+---
 
 Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-362), [Edit](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md)
 
