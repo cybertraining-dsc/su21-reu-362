@@ -27,12 +27,15 @@ Breast cancer is a form of disease that is caused by the growth of cells in the 
 **Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, meachine learning
 
 ## 1. Introduction
+
 Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World.(1) There are different types of breast cancer. Some are invasive while some are non-invasive breast cancers. Early detection of breast cancer or possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. Proccedures like breast ultrasound, diagnostic mammogram, Magnetic resonance imaging (MRI) and biopsy are used to diagnose breast problems, cancer inclusive(2). 
 
 Breast cancer procedures employ the use of AI. However, the branch of AI that would be focused on in this project is Machine Learning Algorithms. Machine Learning (ML) involves programming computers to learn patterns from data in a specific domain by creating mathematical models(3). Algorithms are used to turn dataset into a model. They provide definite operations that tell computers what to do. There are different kinds of algorithms. The two algorithms that would be used in this project are K-Means and Logistsic Regresstion
 In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast.
 
+
 ## 2. Datasets
+
 - [ ] Finding datasets in breast cancer
 - [ ] Can any of the datasets be used in AI?
 - [ ] What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset
@@ -47,8 +50,8 @@ In this project, the use of machine learning algorithms would be used to develop
 
 **Figure 1:** Pair plots of Diagnostic Features
 
-
 ## 5. Example of an AI algorithm in Healthcare
+
 - [ ] Identify the concrete datasets that will be used.
 - [ ] Identify the concrete algorithm that is used to analyze the datasets
 - [ ] Write the program
@@ -58,12 +61,12 @@ In this project, the use of machine learning algorithms would be used to develop
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 6. Conclusion
-
+## 7. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
 ## 8. Acknowledgments
+
 - [ ] Gregor guided me through this process
 Please add acknowledgments to all that contributed or helped on this project.  
 
