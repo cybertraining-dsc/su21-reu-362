@@ -11,14 +11,7 @@ resources:
   title: "Image #:counter"
 ---
 
-[![Check Report](https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-362/actions)
-[![Status](https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-362/actions)
-Status: draft, Type: Project
-
-
 Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-362), [Edit](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md)
-
-{{% pageinfo %}}
 
 ## Abstract
 
@@ -56,7 +49,7 @@ In this project, the use of machine learning algorithms would be used to develop
 - [ ] Identify the concrete algorithm that is used to analyze the datasets
 - [ ] Write the program
 - [ ] Verify that it works
-   
+
 ## 6. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
@@ -68,7 +61,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 ## 8. Acknowledgments
 
 - [ ] Gregor guided me through this process
-Please add acknowledgments to all that contributed or helped on this project.  
+- [ ] Please add acknowledgments to all that contributed or helped on this project.  
 
 ## 9. References
 
@@ -77,7 +70,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^2]: Centers for Disease Control and Prevention, Breast Cancer [Online] 
       <https://www.cdc.gov/cancer/breast/basic_info/diagnosis.htm>
 
-[^3]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677
-      
+[^3]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677  
+
 [^4]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
       <https://github.com/cloudmesh/cloudmesh-common>
