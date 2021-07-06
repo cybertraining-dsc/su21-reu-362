@@ -31,6 +31,7 @@ Breast cancer procedures employ the use of AI. However, the branch of AI that wo
 In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast.
 
 ## 2. Datasets
+
 - [ ] Finding datasets in breast cancer.
 - [ ] Can any of the datasets be used in AI?
 - [ ] What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset
