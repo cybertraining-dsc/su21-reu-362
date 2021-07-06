@@ -26,10 +26,8 @@ Breast cancer is the most common cancer and also the primary cause of mortality 
 Breast cancer procedures employ the use of AI. However, the branch of AI that would be focused on in this project is Machine Learning Algorithms. Machine Learning (ML) involves programming computers to learn patterns from data in a specific domain by creating mathematical models(3). Algorithms are used to turn dataset into a model. They provide definite operations that tell computers what to do. There are different kinds of algorithms. The two algorithms that would be used in this project are K-Means and Logistsic Regresstion
 In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast.
 
-
 ## 2. Datasets
-
-- [ ] Finding datasets in breast cancer
+- [ ] Finding datasets in breast cancer.
 - [ ] Can any of the datasets be used in AI?
 - [ ] What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset
 - [ ] Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
