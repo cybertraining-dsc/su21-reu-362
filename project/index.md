@@ -17,6 +17,8 @@ Status: draft, Type: Project
 
 Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-362), [Edit](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md)
 
+{{% pageinfo %}}
+
 ## Abstract
 
 Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through. Artificial Intelligence(AI) is a concept or technology that is fast-growing in the medical and healthcare field. It has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. This project employs the use of AI algorithms to predict the presence, growth and development of cancerous cells in breast tissues.
