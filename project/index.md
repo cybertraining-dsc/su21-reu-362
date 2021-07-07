@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Predicting Breast Cancer using AI Algorithms"
-linkTitle: Example
+linkTitle: "Breast Cancer"
 tags: ["project", "reu"]
 description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
 author: Kehinde, Ezekiel
