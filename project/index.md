@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Predicting Breast Cancer using AI Algorithms"
 linkTitle: Example
-tags: ["project", "reu",]
+tags: ["project", "reu"]
 description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
