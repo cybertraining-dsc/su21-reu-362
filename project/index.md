@@ -27,7 +27,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, meachine learning
+**Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, meachine learning.
 
 ## 1. Introduction
 
