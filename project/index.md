@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Predicting Breast Cancer using AI Algorithms"
-linkTitle: "Breast Cancer"
+linkTitle: Breast Cancer
 tags: ["project", "reu"]
 description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
 author: Kehinde, Ezekiel
@@ -26,9 +26,9 @@ Breast cancer is a form of disease that is caused by the growth of cells in the 
 
 Contents
 
-{{< table_of_Contents >}}
+{{< table_of_contents >}}
 
-{{% pageinfo %}}
+{{% /pageinfo %}}
 
 **Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, meachine learning.
 
@@ -57,27 +57,27 @@ What are the factors that make the data of breast cancer in the healthcare field
 
 **Figure 1:** Pair plots of Diagnostic Features
 
-## 5. Example of an AI algorithm in Healthcare
+## 4. Example of an AI algorithm in Healthcare
 
 - [ ] Identify the concrete datasets that will be used.
 - [ ] Identify the concrete algorithm that is used to analyze the datasets
 - [ ] Write the program
 - [ ] Verify that it works
 
-## 6. Benchmark
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 7. Conclusion
+## 6. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 8. Acknowledgments
+## 7. Acknowledgments
 
 - [ ] Gregor guided me through this process
 - [ ] Please add acknowledgments to all that contributed or helped on this project.
 
-## 9. References
+## 8. References
 
 [^1]: Akram, Muhammad et al. "Awareness and current knowledge of breast cancer." Biological research vol. 50,1 33. 2 Oct. 2017, doi:10.1186/s40659-017-0140-9
 
