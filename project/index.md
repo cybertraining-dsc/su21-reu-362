@@ -34,11 +34,13 @@ Contents
 
 ## 1. Introduction
 
-Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World.(1) There are different types of breast cancer. Some are invasive while some are non-invasive breast cancers. Early detection of breast cancer or possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. Proccedures like breast ultrasound, diagnostic mammogram, Magnetic resonance imaging (MRI) and biopsy are used to diagnose breast problems, cancer inclusive(2). 
+Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World.(1) Breast cancer is the abnormal growth of cells in the breast region. There are different types of breast cancer. Some are invasive while some are non-invasive breast cancers. Early detection of breast cancer or possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. Proccedures like breast ultrasound, diagnostic mammogram, Magnetic resonance imaging (MRI) and biopsy are used to diagnose breast problems, cancer inclusive(2). 
 
-Breast cancer procedures employ the use of AI. However, the branch of AI that would be focused on in this project is Machine Learning Algorithms. Machine Learning (ML) involves programming computers to learn patterns from data in a specific domain by creating mathematical models(3). Algorithms are used to turn dataset into a model. They provide definite operations that tell computers what to do. There are different kinds of algorithms. The two algorithms that would be used in this project are K-Means and Logistsic Regresstion
-In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast.
-What are the factors that make the data of breast cancer in the healthcare field challenge with respect to privacy and what factors should be used to improve the AI Algorithms?
+Breast cancer procedures employ the use of Artificial Intelligenc(AI). Artificial intelligence uses the simulation of human intelligence processes by machines especially computer systems.
+
+Recent publication shows that a considerable amount of work has been done in impproving the AI methods that are used to detect cancer. A publication shows how a AI algorithm model called AI cancer detector is used to help reduce radiologist workload by employing the use of triage and increase cancer detection. However, since cancer growth in the breast can occur at different locations, the algorithm could not detect if the cancer that was detected was the same at another location. Also
+
+In this project, the branch of AI that would be focused on in this project is Machine Learning Algorithms. Machine Learning (ML) involves programming computers to learn patterns from data in a specific domain by creating mathematical models(3). Algorithms are used to turn dataset into a model. They provide definite operations that tell computers what to do. There are different kinds of algorithms. The two algorithms that would be used in this project are K-Means and Logistsic Regresstion. In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast. What are the factors that make the data of breast cancer in the healthcare field challenge with respect to privacy and what factors should be used to improve the AI Algorithms?
 
 ## 2. Datasets
 
@@ -83,8 +85,10 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 [^2]: Centers for Disease Control and Prevention, Breast Cancer [Online] 
       <https://www.cdc.gov/cancer/breast/basic_info/diagnosis.htm>
+      
+[^3]: Effect of artificial intelligence-based triaging of breast cancer screening mammograms on cancer detection and radiologist workload: a retrospective simulation study Dembrower, Karin et al. The Lancet Digital Health, Volume 2, Issue 9, e468 - e474
+      
+[^4]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677
 
-[^3]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677
-
-[^4]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
+[^5]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
       <https://github.com/cloudmesh/cloudmesh-common>
