@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Overview of Feature Extraction Strategies related to Privacy Issues in Breast Cancer"
 linkTitle: AI in Healthcare
 tags: ["project", "reu"]
-description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
+description: "This project provides an overview of feature extraction strategies in breast cancer diagnosis and detection as t relates with privacy issues."
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
 resources:
