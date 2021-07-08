@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Predicting Breast Cancer using AI Algorithms"
+title: "Overview of Feature Extraction Strategies related to Privacy Issues in Breast Cancer"
 linkTitle: Breast Cancer
 tags: ["project", "reu"]
 description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
@@ -22,7 +22,7 @@ Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-36
 
 ## Abstract
 
-Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through. Artificial Intelligence(AI) is a concept or technology that is fast-growing in the medical and healthcare field. It has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. This project employs the use of AI algorithms to predict the presence, growth and development of cancerous cells in breast tissues.
+Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through. Artificial Intelligence(AI) is a concept or technology that is fast-growing in the medical and healthcare field. It has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. In  the  previous  studies, researchers  extracted  different  features  from  colon  biopsy  images  to  detect  the  cancer  and  distinguish  the  normal  and  malignant  subjects. 
 
 Contents
 
@@ -30,7 +30,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, meachine learning.
+**Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, privacy.
 
 ## 1. Introduction
 
