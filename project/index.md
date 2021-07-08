@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Overview of Feature Extraction Strategies related to Privacy Issues in Breast Cancer"
-linkTitle: Breast Cancer
+linkTitle: AI in Healthcare
 tags: ["project", "reu"]
 description: "This project describes two machine learning algorithms -name them- that can be used to predict the presence of breast cancer."
 author: Kehinde, Ezekiel
@@ -34,15 +34,14 @@ Contents
 
 ## 1. Introduction
 
-Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World.(1) Breast cancer is the abnormal growth of cells in the breast region. There are different types of breast cancer. Some are invasive while some are non-invasive breast cancers. Early detection of breast cancer or possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. Proccedures like breast ultrasound, diagnostic mammogram, Magnetic resonance imaging (MRI) and biopsy are used to diagnose breast problems, cancer inclusive(2). 
+Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World.(1) Breast cancer is the abnormal growth of cells in the breast region. Some are invasive while some are non-invasive. Early diagnosis and detection of possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. The breast cancer is diagnosed and detected through a ocmbination of different approaches such as imaging, physical examination by a radiologist and biopsy.(REFERNECE). Imaging employs the use of Artificial Intelligence(AI) and it consists of mammography and ultrasound. The results of the imaging as deciphered by a radiologist determines the next step. If detected present, a physical examination si conducted to decipher the kind of appearance - normal,benign or nonspecific. Then, biopsy is used to confirm the breast cancer symptoms. However, reseaarch has shown that radiologists can miss up to 30% of brease cancer(2). Hence, the introduuction of Computer aided Diagnosis (CAD) systems that can help radiologists to detect abnormailities in an efficient manner. CAD is a technology that includes concept of artificial intelligence(AI), medical image processing to find abnormal signs in the human body(3). Machine Learning in AI allows for the implementation of several algorithms that can be leveraged upon to . One of such is feature extraction.
 
-Breast cancer procedures employ the use of Artificial Intelligenc(AI). Artificial intelligence uses the simulation of human intelligence processes by machines especially computer systems.
+Feature Extratcion strategies are methods that are used in machine learning to reduce the number of resources required to describe a large amount of data. In the diagnosis and detection of breast cancer, feature extraction strategies can include texture, morphological entropy based, scale invariant feature transform (SIFT), and wlliptic Fourier desriptors (EFDs).(2) Explain how it used in Machine learning.
 
-Recent publication shows that a considerable amount of work has been done in impproving the AI methods that are used to detect cancer. A publication shows how a AI algorithm model called AI cancer detector is used to help reduce radiologist workload by employing the use of triage and increase cancer detection. However, since cancer growth in the breast can occur at different locations, the algorithm could not detect if the cancer that was detected was the same at another location. 
+Since the generation technology, cloud computing, privacy in healthcare has become a pertinent issue. Researchers need medical data to advance their work. in building an effective AI system, a large amount of data. Since these data belong to certain patients, sharing of patients' data calls for privacy concerns. Recent developments that have been done include designing a system that restricts access to a patient information only when the patient mobile approves the access.(Reference).
 
-In this project, the branch of AI that would be focused on in this project is Machine Learning Algorithms. Machine Learning (ML) involves programming computers to learn patterns from data in a specific domain by creating mathematical models(3). Algorithms are used to turn dataset into a model. They provide definite operations that tell computers what to do. There are different kinds of algorithms. The two algorithms that would be used in this project are K-Means and Logistsic Regresstion.
+This project provides an overview of different feature extraction strategies that are related to privacy issues in breast cancer detection and diagnosis. 
 
-In this project, the use of machine learning algorithms would be used to develop a model that will provide easy prediction of cancerous cells in the breast. What are the factors that make the data of breast cancer in the healthcare field challenge with respect to privacy and what factors should be used to improve the AI Algorithms?
 
 ## 2. Datasets
 
@@ -85,10 +84,12 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 [^1]: Akram, Muhammad et al. "Awareness and current knowledge of breast cancer." Biological research vol. 50,1 33. 2 Oct. 2017, doi:10.1186/s40659-017-0140-9
 
-[^2]: Centers for Disease Control and Prevention, Breast Cancer [Online] 
-      <https://www.cdc.gov/cancer/breast/basic_info/diagnosis.htm>
+[^2]: L. Hussain, W. Aziz, S. Saeed, S. Rathore and M. Rafique, "Automated Breast Cancer Detection Using Machine Learning Techniques by Extracting Different Feature Extracting Strategies," 2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications/ 12th IEEE International Conference On Big Data Science And Engineering (TrustCom/BigDataSE), 2018, pp. 327-331, doi: 10.1109/TrustCom/BigDataSE.2018.00057.     
       
 [^3]: Effect of artificial intelligence-based triaging of breast cancer screening mammograms on cancer detection and radiologist workload: a retrospective simulation study Dembrower, Karin et al. The Lancet Digital Health, Volume 2, Issue 9, e468 - e474
+
+[^3]: Halalli, Bhagirathi et al. "Computer Aided Diagnosis - Medical Image Analysis Techniques." 20 Dec. 2017, doi: 10.5772/intechopen.69792
+      
       
 [^4]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677
 
