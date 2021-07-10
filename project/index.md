@@ -40,7 +40,7 @@ Feature Extratcion strategies are methods that are used in machine learning to r
 
 Since the generation technology, cloud computing, privacy in healthcare has become a pertinent issue. Researchers need medical data to advance their work. in building an effective AI system, a large amount of data. Since these data belong to certain patients, sharing of patients' data calls for privacy concerns. Recent developments that have been done include designing a system that restricts access to a patient information only when the patient mobile approves the access.(Reference).
 
-This project provides an overview of different feature extraction strategies that are related to privacy issues in breast cancer detection and diagnosis. 
+This project provides an autoated breast cancer detection using machine learning algorithms.
 
 
 ## 2. Datasets
@@ -83,6 +83,8 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 ## 8. References
 
 [^1]: Akram, Muhammad et al. "Awareness and current knowledge of breast cancer." Biological research vol. 50,1 33. 2 Oct. 2017, doi:10.1186/s40659-017-0140-9
+
+[^2]: National Breast Cancer Foundtaion. https://www.cancer.org/cancer/breast-cancer/screening-tests-and-early-detection.html
 
 [^2]: L. Hussain, W. Aziz, S. Saeed, S. Rathore and M. Rafique, "Automated Breast Cancer Detection Using Machine Learning Techniques by Extracting Different Feature Extracting Strategies," 2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications/ 12th IEEE International Conference On Big Data Science And Engineering (TrustCom/BigDataSE), 2018, pp. 327-331, doi: 10.1109/TrustCom/BigDataSE.2018.00057. 
 
