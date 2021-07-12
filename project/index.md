@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Automated Detection of Breast Cancer Subtypes using Machine Learning Algorithms"
+title: "Automated Detection and Classification of Breast Cancer Subtypes using Machine Learning Algorithms"
 linkTitle: AI in Healthcare
 tags: ["project", "reu"]
 description: "This project provides a means to detect breast cancer subtypes using three different machine learning algorithms and aims to determine the accuracy of each model."
