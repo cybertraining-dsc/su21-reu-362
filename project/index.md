@@ -22,7 +22,7 @@ Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-36
 
 ## Abstract
 
-Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through. Artificial Intelligence(AI) is a concept or technology that is fast-growing in the medical and healthcare field. It has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. In  previous  studies, researchers  extracted  different  features  from  colon  biopsy  images  to  detect  the  cancer  and  distinguish  the  normal  and  malignant  subjects. 
+Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through Artificial Intelligence(AI). AI is a concept or technology that is fast-growing in the medical and healthcare field. AI has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. In  previous  studies, researchers  extracted  different  features  from  colon  biopsy  images  to  detect  the  cancer  and  distinguish  the  normal  and  malignant  subjects. 
 
 Contents
 
@@ -30,15 +30,17 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, cancer, breast, algorithms, machine learning, healthcare, privacy.
+**Keywords:** AI, cancer, breast, algorithms, machine learning, healthcare, privacy.
 
 ## 1. Introduction
 
-Breast cancer is the most common cancer and also the primary cause of mortality due to cancer in female around the World[^1]. Breast cancer is the abnormal growth of cells in the breast region. Some are invasive while some are non-invasive. Early diagnosis and detection of possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. The breast cancer is diagnosed and detected through a ocmbination of different approaches such as imaging, physical examination by a radiologist and biopsy.(REFERNECE). Imaging employs the use of Artificial Intelligence(AI) and it consists of mammography and ultrasound. The results of the imaging as deciphered by a radiologist determines the next step. If detected present, a physical examination si conducted to decipher the kind of appearance - normal,benign or nonspecific. Then, biopsy is used to confirm the breast cancer symptoms. However, reseaarch has shown that radiologists can miss up to 30% of brease cancer[^2]. Hence, the introduuction of Computer aided Diagnosis (CAD) systems that can help radiologists to detect abnormailities in an efficient manner. CAD is a technology that includes concept of artificial intelligence(AI), medical image processing to find abnormal signs in the human body[^3]. Machine Learning in AI allows for the implementation of several algorithms that can be leveraged upon to address health issues like breast cancer. 
+Breast cancer is the most common cancer, and also the primary cause of mortality due to cancer in female around the World[^1]. Breast cancer is the abnormal growth of cells in the breast region and some are invasive while some are non-invasive. Early diagnosis and detection of possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. The breast cancer is diagnosed and detected through a combination of different approaches such as imaging, physical examination by a radiologist and biopsy.(REFERNECE). Imaging technology employs the use of Artificial Intelligence(AI) and it consists of mammography and ultrasound. The results of the imaging as deciphered by a radiologist determines the next step. If abnormal cells are detected, a physical examination is conducted to decipher the kind of appearance - normal,benign or nonspecific. 
 
-Breast cancer consists of multiple subtypes,identified based on their differences in gene expression. They have with distinct morphologies and clinical outcomes. They are luminal A, luminal B, HER2 over-expression, basal and normal-like tumors[^4]. Hence, the accurate grouping of breast cancer into its relevant subtypes can improve accurate treatment-decision making. Machine Learning Algorithms is a platform that can be used to achieve this. 
+Biopsy is used to confirm the breast cancer symptoms. However, research has shown that radiologists can miss up to 30% of breast cancer tissues[^2]. Hence, the introduuction of Computer aided Diagnosis (CAD) systems can help radiologists to detect abnormailities in an efficient manner. CAD is a technology that includes concept of artificial intelligence(AI), medical image processing to find abnormal signs in the human body[^3]. Machine Learning and AI allows for the implementation of several algorithms that can be leveraged upon to address health issues like breast cancer. 
 
-This project provides an automated detection of breast cancer subtypes using Linear Regression, Lassa Regression and Data Visualization. These machine learning algorithms are . The project also aims to identify the accuracy of the models in the classification and detection of breast cancer subtypes
+Breast cancer consists of multiple subtypes,identified based on their differences in gene expression. They come with distinct morphologies and clinical outcomes. They are luminal A, luminal B, HER2 over-expression, basal and normal-like tumors[^4]. Hence, the accurate grouping of breast cancer into its relevant subtypes can improve accurate treatment-decision making. Machine Learning Algorithms is a model that can be used to achieve the classification of the grouping categories subtypes. 
+
+This project provides an automated detection of breast cancer subtypes using Linear Regression, Lasso Regression and Data Visualization. Linear regression is an algorithm  . The project also aims to identify the accuracy of the models in the classification and detection of breast cancer subtypes
 
 
 ## 2. Datasets
