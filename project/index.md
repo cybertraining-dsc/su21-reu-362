@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Automated Detection and Classification of Breast Cancer Subtypes using Machine Learning Algorithms"
 linkTitle: AI in Healthcare
 tags: ["project", "reu"]
-description: "This project provides a means to detect breast cancer subtypes using three different machine learning algorithms and aims to determine the accuracy of each model."
+description: "This project provides a means to detect breast cancer subtypes from a proteomic dataset using three different machine learning algorithms and aims to determine the accuracy of each model."
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
 resources:
@@ -34,7 +34,7 @@ Contents
 
 ## 1. Introduction
 
-Breast cancer is the most common cancer, and also the primary cause of mortality due to cancer in female around the World[^1]. Breast cancer is the abnormal growth of cells in the breast region and some are invasive while some are non-invasive. Early diagnosis and detection of possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. The breast cancer is diagnosed and detected through a combination of different approaches such as imaging, physical examination by a radiologist and biopsy.(REFERNECE). Imaging technology employs the use of Artificial Intelligence(AI) and it consists of mammography and ultrasound. The results of the imaging as deciphered by a radiologist determines the next step. If abnormal cells are detected, a physical examination is conducted to decipher the kind of appearance - normal,benign or nonspecific. 
+Breast cancer is the most common cancer, and also the primary cause of mortality due to cancer in female around the World[^1]. Breast cancer is the abnormal growth of cells in the breast region. Early diagnosis and detection of possible cancerous cells in the breast can increase survival chances and provide a chance for better treatment and management. The breast cancer is diagnosed and detected through a combination of different approaches such as imaging, physical examination by a radiologist and biopsy.(REFERNECE). Imaging technology employs the use of Artificial Intelligence(AI) and it consists of mammography and ultrasound. The results of the imaging as deciphered by a radiologist determines the next step. If abnormal cells are detected, a physical examination is conducted to decipher the kind of appearance - normal,benign or nonspecific. 
 
 Biopsy is used to confirm the breast cancer symptoms. However, research has shown that radiologists can miss up to 30% of breast cancer tissues[^2]. Hence, the introduuction of Computer aided Diagnosis (CAD) systems can help radiologists to detect abnormailities in an efficient manner. CAD is a technology that includes concept of artificial intelligence(AI), medical image processing to find abnormal signs in the human body[^3]. Machine Learning and AI allows for the implementation of several algorithms that can be leveraged upon to address health issues like breast cancer. 
 
@@ -43,29 +43,38 @@ Breast cancer consists of multiple subtypes,identified based on their difference
 This project provides an automated detection of breast cancer subtypes using Linear Regression, Lasso Regression and Data Visualization. Linear regression is an algorithm  . The project also aims to identify the accuracy of the models in the classification and detection of breast cancer subtypes
 
 
-## 2. Datasets
+## 2a. Datasets
+Datasets are eseential in drawing conclusion from . In breast cancer diagnosis, detection and classification, datasets have been essential to draw conclusion to identifiable patterns. They range from imaging datasets to clinical datasets, proteomic datasets etc,. Many of these datasets.
 
-- [ ] Finding datasets in breast cancer.
-- [ ] Research data privacy in the healthcare
-- [ ] Can any of the datasets be used in AI?
-- [ ] What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset
-- [ ] Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-      However, if the data is publicly available you program must contain a download function instead that you customize.
-      Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
-      the download function.
+Due to new technological and computational advances like NCBI, EEG that records clinical information respectively, large amounts of data have been collected. These data vary . Medical researchers leverage these datasets to make useful health care decisions that affect a region, gender or the world. The need for accuracy and reproducibilty has led to the use of machine learning as an important tool for drawing conclusions.
 
-## 3. Using Images
+Machine Learning involves training a piece of software, also known as model, to idnetify patterns from a dataset and make useful predictions. There are several factors to be considered when using datasets. One of such isa is data privacy. Recently, measures have been taken to ensure that the privacy of data. Some of these measures include, replacing codes for patients name, using documents and mobile applications that ask for permission from patients before using their data. Recently, the World Health Organization (WHO) made a 
 
-![Figure 1](https://github.com/kehinde-ezekiel/su21-reu-362/blob/main/project/images/chart_image.jpg)
+ Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model's performance on testing data and using the model on a new data. [^5]
 
-**Figure 1:** Pair plots of Diagnostic Features
 
-## 4. Example of an AI algorithm in Healthcare
+## 2b. Dataset in the Project
+The dataset that is used in this project is a proteomic dataset. It contains published iTRAQ proteome profiling of 77 breast cancer samples generated by the Clinical Proteomic Tumor Analysis Consortium (NCI/NIH). It contains expression values for ~12.000 proteins for each sample, with missing values present when a given protein could not be quantified in a given sample. Proteomics is the study of proteomes(the entire complement of proteins that is or can be expressed by a cell, tissue, or an organism) and their functions. Proteome is the main functional unit of cells and it is translated from RNA molecules. The RNA molecules are transcribed from the DNA in the genes.
+
+Consequently, the five breast cancer subtypes are classified based on their gene expression. The method that was used to classify them was the PAM50,  a 50-gene signature. This project focusedon classifying the subtypes using nachine  learning algorithm using the knowledge that a relationship exist between gene and protein. The machine learning algorithms that were used in this project are K-Means, Support Vector Mchine(SVM) and Linear Regresssion. 
+
+KMeans is an unsupervised learning algorithm that describe relationships in a data. In this proteome dataset, it aims to look for similarities and patterns in the data and use it to classify the data.
+
+
+## 3. Example of an AI algorithm in Healthcare
 
 - [ ] Identify the concrete datasets that will be used.
 - [ ] Identify the concrete algorithm that is used to analyze the datasets
 - [ ] Write the program
 - [ ] Verify that it works
+
+
+## 4. Using Images
+
+![Figure 1](https://github.com/kehinde-ezekiel/su21-reu-362/blob/main/project/images/chart_image.jpg)
+
+**Figure 1:** Pair plots of Diagnostic Features
+
 
 ## 5. Benchmark
 
