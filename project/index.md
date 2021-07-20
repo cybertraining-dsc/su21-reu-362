@@ -22,7 +22,9 @@ Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-36
 
 ## Abstract
 
-Breast cancer is a form of disease that is caused by the growth of cells in the breast out of proportion. The major forms by which breast cancer can be detected are through Artificial Intelligence(AI). AI is a concept or technology that is fast-growing in the medical and healthcare field. AI has provided opportunities for the healthcare ecosystem to make quick analysis, observe trends and introduce technological solutions to healthcare problems like diseases. In  previous  studies, researchers  extracted  different  features  from  colon  biopsy  images  to  detect  the  cancer  and  distinguish  the  normal  and  malignant  subjects. 
+Breast cancer is an heterogenous disease that is caused by the growth of cells in the breast out of proportion. During the last 20 years, five (5) intrinsic molecular subtypes - luminal A, luminal B, HER2-enriched, Basal-like and Claudin-low have been identified, classified and intensively studied. This classification is based on gene expression profiling, specificaly defined by mRNA expression of 50 genes (also known as, PAM50 Genes). Each subtype has its distinct morphologies and clinical treatment, hence, there have been more research and advance to ensure quicker and more accurate prediction and classification. Artificial intelligence (AI), machine learning are one of such approach. They allow for more accurate classification, detection and prediction of breast cancer subtypes.
+
+Proteins are mRNA final product. The basis of classification of the subtypes based on the PAM50 genes using mRNA expression may not be as using protein, mRNA final product. With the knowledege of advancing technologies and the basis of the PAM50 gene classification, this project focused on the use of a proteomic dataset which contained published iTRAQ proteome profiling of 77 breast cancer samples and expression values ofr the proteins of each sample. Machine learning algorithm was implemented to design and analyze the data into clusters and 
 
 Contents
 
@@ -40,7 +42,7 @@ Biopsy is used to confirm the breast cancer symptoms. However, research has show
 
 Breast cancer consists of multiple subtypes,identified based on their differences in gene expression. They come with distinct morphologies and clinical outcomes. They are luminal A, luminal B, HER2 over-expression, basal and normal-like tumors[^4]. Hence, the accurate grouping of breast cancer into its relevant subtypes can improve accurate treatment-decision making. Machine Learning Algorithms is a model that can be used to achieve the classification of the grouping categories subtypes. 
 
-This project provides an automated detection of breast cancer subtypes using Linear Regression, Lasso Regression and Data Visualization. Linear regression is an algorithm  . The project also aims to identify the accuracy of the models in the classification and detection of breast cancer subtypes
+This project provides an automated detection of breast cancer subtypes using Linear Regression, Lasso Regression and Data Visualization. Linear regression is an algorithm  . The project also aims to identify the accuracy of the models in the classification and detection of breast cancer subtypes. The project aim to idnetify unique protein identifiers that may be unique or similar for a particular suubtype
 
 
 ## 2. Datasets
