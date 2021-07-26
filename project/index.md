@@ -78,31 +78,32 @@ After merging, the "PAM5O RNA" variable from the second dataset was selected to 
 
 Missing values were imputed using SimpleImputer, the number of clusters that works best were determined. Figures 1 and 2 reveals the result for KMeans clustering using 3 and 5 clusters respectively.
 
-The link to the full code for the algorithm <nkaf>
+The link to the full code for the algorithm <https://colab.research.google.com/drive/1ETvGu_cMFlATT28LrHdWgRFahBv9gStN#scrollTo=Qu6nLUiudcYa>
 
 
 ## 5. Using Images
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new_1.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png)
 
 **Figure 1:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3)
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/test.png)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/k%3D4_image.png)
 
-**Figure 2:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=5)
+**Figure 2:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=4)
 
 
 ## 6. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^8]
+Your project must include a benchmark. The easiest is to use cloudmesh-common [^9]
  
 ## 7. Conclusion
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
+The results of the KMeans analysis indicated that a cluster of 3 is better than a cluster of 4. Future research would be to use other machine learning algorithms, possibly a supervised learning algotithm, to identify the correlation between the clusters and the four molecular subtypes.
 
 ## 8. Acknowledgments
 
 - [ ] Gregor guided me through this process
-- [ ] Please add acknowledgments to all that contributed or helped on this project.
+- [ ] REU Instructors - Carlos Theran, Yohn Jairo, Victor Adankai
+- [ ] Jacques Fleischer, David Umanzor
 
 ## 9. References
 
