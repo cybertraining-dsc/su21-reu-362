@@ -79,7 +79,7 @@ The result of the pprogram is then compared with a clinical dataset from which t
 
 ## 5. Using Images
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/test1.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/test.png)
 
 **Figure 1:** Pair plots of Diagnostic Features
 
