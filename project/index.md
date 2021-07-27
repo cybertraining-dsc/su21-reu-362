@@ -77,6 +77,8 @@ The third dataset was a clinical data of about 105 clinical of which the 77 brea
 The link to the original study where the samples were used <http://www.nature.com/nature/journal/v534/n7605/full/nature18003.html>
 The referred kernals for the code <https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis> and <https://pastebin.com/A0Wj41DP>
 
+- [ ] the code must be put into the github and the link to the github notbook used. In addition you can put in the colab link
+
 - [ ] next sentence unclear because of `.`
 
 During the preparation of the datasets for KMeans analysis, the first and third dataset were merged together, while `.` The variable 'Complete TCGA ID' in the third dataset was found to be the same as the TCGAs in the first dataset. The Complete TCGA ID refers to a breast cancer patient, some patients can be found in both datasets. The TCGA ID in the first dataset was renamed to match with the TCGA of the third dataset, thereby giving the same syntax. The first dataset was also transposed as a row and its gene expression as the columns. These processes were done in order to merge both dataset.
@@ -87,8 +89,14 @@ Missing values were imputed using SimpleImputer, the number of clusters that wor
 
 The link to the full code for the algorithm <https://colab.research.google.com/drive/1ETvGu_cMFlATT28LrHdWgRFahBv9gStN#scrollTo=Qu6nLUiudcYa>
 
+- [ ] the code must be put into the github and the link to the github notbook used. In addition you can put in the colab link
 
 ## 5. Using Images
+
+- [ ] the section heder `Using Images` makes no sense. IT was used in an example paper weher we expalined how to use images in a paper, are you trying to explain to us how to use images in a paper?
+
+- [ ] Figures must have at leas one sentence in the text explaining what they show while refering to the figure
+
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png)
 
 **Figure 1:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3)
@@ -99,6 +107,10 @@ The link to the full code for the algorithm <https://colab.research.google.com/d
 
 
 ## 6. Benchmark
+
+- [ ] no expalnation provides
+- [ ] no explanation which hardware is used
+- [ ] time does not have a unit
 
 | Name        | Status  | Time  |
 |-------------|---------|-------|
@@ -115,9 +127,13 @@ The link to the full code for the algorithm <https://colab.research.google.com/d
  
 ## 7. Conclusion
 
+- [ ] the comparision of 3 vs 4 needs to be explained in your paper then you can refer to it in the conclusion as you did, what does 3 vs 4 mean.... why did you do 3 vs 4 and not 3 vs 5?
+
 The results of the KMeans analysis indicated that a cluster of 3 is better than a cluster of 4. Future research would be to use other machine learning algorithms, possibly a supervised learning algotithm, to identify the correlation between the clusters and the four molecular subtypes.
 
 ## 8. Acknowledgments
+
+- [ ]  This needs to have a full sentence/paragraph
 
 - [ ] Gregor guided me through this process
 - [ ] REU Instructors - Carlos Theran, Yohn Jairo, Victor Adankai
