@@ -22,12 +22,13 @@ Kehinde Ezekiel, [su21-reu-362](https://github.com/cybertraining-dsc/su21-reu-36
 
 - [ ] quotes need to be used for quotes from a paper
 - [ ] if you like to empasize do not use "emphasize" but *emphasize*
+- [ ] The relationship of kmeans and your description of AI/ML may not quite fit nicely. I think your focus should be what clustering is and not ML. 
 
 ## Abstract
 
 Breast cancer is an heterogenous disease that forms in the cells of the breast and characterized by abnormal growth of the cells[^1]. Early diagnosis and detection of possible cancerous cells in the breast usually increase survival chances and provide a better approach for treatment and management.  Artificial Intelligence involves the simulation of human intelligence in machines and can be used for learning or to solve problems. A major subset of AI is Machine Learning which involves training a piece of software (called model) to makwe useful predictions using dataset. 
 
-In this project, a machine learning algotithm (kMeans) was used to classify a proteomic dataset into similar clusters using its proteins identifiers. The protein identifiers were associated with the PAM50genes. The project revealed that machine learning algorithm can be used to (WAIT FOR THE RESULT) and suggests the implementation of several algorithms that can be leveraged upon to address healthcare issues like breast cancer and other diseases that are charactized with subtypes. it also suggeests that studying the specific subtypes based on the algorithm has the potential in developing new therapies as well as effective management and treatment plan.
+In this project, a clustering (kMeans) was used to classify a proteomic dataset into similar clusters using its proteins identifiers. The protein identifiers were associated with the PAM50genes. The project revealed that machine learning algorithm can be used to (WAIT FOR THE RESULT) and suggests the implementation of several algorithms that can be leveraged upon to address healthcare issues like breast cancer and other diseases that are charactized with subtypes. it also suggeests that studying the specific subtypes based on the algorithm has the potential in developing new therapies as well as effective management and treatment plan.
 
 
 Contents
