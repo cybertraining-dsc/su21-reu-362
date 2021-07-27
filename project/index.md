@@ -96,7 +96,13 @@ The link to the full code for the algorithm <https://colab.research.google.com/d
 | Name        | Status  | Time  |
 |-------------|---------|-------|
 | parallel 1  |   ok    | 0.647 |
-|             |
+| parallel 3  |   ok    | 0.936 |
+| parallel 5  |   ok    | 0.952 |
+| parallel 7  |   ok    | 0.943 |
+| parallel 9  |   ok    | 1.002 |
+| parallel 11 |   ok    | 0.991 |
+| parallel 13 |   ok    | 0.958 |
+| parallel 15 |   ok    | 1.012 |
 
 **Benchmark:** The table shows the parallel process time take the for loop for n_components. 
  
