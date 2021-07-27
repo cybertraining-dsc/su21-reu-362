@@ -93,7 +93,11 @@ The link to the full code for the algorithm <https://colab.research.google.com/d
 
 ## 6. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^9]
+| Name        | Status  | Time  |
+|-------------|---------|-------|
+|             |
+|             |
+
  
 ## 7. Conclusion
 
