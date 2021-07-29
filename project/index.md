@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Automated Detection and Classification of Breast Cancer Subtypes using Machine Learning Algorithms"
+title: "Investigating the Classification of Breast Cancer Subtypes using KMeans"
 linkTitle: AI in Healthcare
 tags: ["project", "reu"]
-description: "This project provides a means to classify molecular breast cancer subtypes based on gene expression using the approach of machine learning algorithm." 
+description: "This project provides an insight into the classification of a proetomic dataset into clusters that r." 
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
 resources:
@@ -48,54 +48,41 @@ During the last 20 years, four major intrinsic molecular subtypes for breast can
 The PAM50 test is now known as he Prosigna Breast Cancer Prognostic Gene Signature Assay
 50 (known ad Prosigna) and it analyzes the activity of certain genes in early-stage, hormone-receptor-positive breast cancer[^5]. The classification of the breast cancer subtypes is based on the mRNA expression and the activity of 50 genes and it aims to estimate the rik of distanat reccurrence of breast cancer. Since the assay was based on mRNA expression, it was suggested that a classification based on the final product of mRNA, that is protien, can be implemented to investigate its role in the classifictaion of molecular breast cancer subtypes. As a result, the project was focused on the use of a proteomic dataset which contained published iTRAQ proteome profiling of 77 breast cancer samples and expression values ofr the proteins of each sample. Machine learning algorithm was implemented to design and analyze the data into clusters and determine the relationship of the clusters with each subtype. 
 
-Recently, Artificial intelligence methods, Machine Learning methods, image classifcation have been largely used for breast cancer classification. The advancements in the field of  Machine Learning (ML) have led to more intelligent and self-reliant computer-aided diagnosis (CAD) systems, as the learning ability of ML methods has been constantly improving. A conventional ML method includes enhancement, feature extraction, segmentation, and classification[^6]. 
+Recently, Artificial intelligence methods, Machine Learning methods, image classifcation have been largely used for breast cancer classification. The advancements in the field of  Machine Learning (ML) have led to more intelligent and self-reliant computer-aided diagnosis (CAD) systems, as the learning ability of ML methods has been constantly improving. Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model's performance on testing data and using the model on a new data[^8]. In this project, KMEans was the algorithm used in this project, the datasets were prepared through several procedures like filtering, merging. A conventional ML method includes enhancement, feature extraction, segmentation, and classification[^6]. KMeans clustering method was used to investigate the classification of the subtype. explain sillohuet and homogenegnity score
 
-This project provides an automated classification of breast cancer subtypes using KMeans, a classification algorithm. The scope of the project is to identify the molecular subtypes of breast cancer using the protein  unique identifiers of the breast cancer genes and to investigate its efficacy with the established PAM50 assay.
+EXPLAIN KMEANS AND HOW TO TEST ITS ACCURACY
 
 
 ## 2. Datasets
 
-Datasets are eseential in drawing conclusion. In the diagnosis, detection and classification of breast cancecr, datasets have been essential to draw conclusion to identifiable patterns. They range from imaging datasets to clinical datasets, proteomic datasets etc. Due to new technological and computational advances like NCBI, EEG that record clinical information respectively, large amounts of data have been collected. Medical researchers leverage these datasets to make useful health care decisions that affect a region, gender or the world. The need for accuracy and reproducibilty has led to the use of machine learning as an important tool for drawing conclusions.
+Datasets are eseential in drawing conclusion. In the diagnosis, detection and classification of breast cancecr, datasets have been essential to draw conclusion by identifying patterns. These datasets range from imaging datasets to clinical datasets, proteomic datasets etc. Large amounts of data have been collected due to new technological and computational advances like the use of websites like NCBI, equipments like Electroencephalogram (EEG) which record clinical information.  Medical researchers leverage these datasets to make useful health care decisions that affect a region, gender or the world. The need for accuracy and reproducibilty has led to the use of machine learning as an important tool for drawing conclusions.
 
-Machine Learning involves training a piece of software, also known as model, to idnetify patterns from a dataset and make useful predictions. There are several factors to be considered when using datasets. One of such is data privacy. Recently, measures have been taken to ensure that the privacy of data. Some of these measures include, replacing codes for patients name, using documents and mobile applications that ask for permission from patients before using their data. Recently, the World Health Organization (WHO) made her report on AI and provided priniples that ensure that AI works for all. On of such is that the designer of AI technologies should satisfy regulatory requirements for safety, accuracy and efficacy for well-defined use cases or indications. Measures of quality control in practice and quality improvement in the use of AI must be available[^7]. Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model's performance on testing data and using the model on a new data[^8].
+Machine Learning involves training a piece of software, also known as model, to idnetify patterns from a dataset and make useful predictions. There are several factors to be considered when using datasets. One of such is data privacy. Recently, measures have been taken to ensure that the privacy of data. Some of these measures include, replacing codes for patients name, using documents and mobile applications that ask for permission from patients before using their data. Recently, the World Health Organization (WHO) made her report on AI and provided priniples that ensure that AI works for all. On of such is that the designer of AI technologies should satisfy regulatory requirements for safety, accuracy and efficacy for well-defined use cases or indications. Measures of quality control in practice and quality improvement in the use of AI must be available[^7]. Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model's performance on testing data and using the model on a new data[^8]. In this project, KMEans was the algorithm used in this project, the datasets were prepared through several procedures like filtering, merging.
 
+## 3. The KMeans Approach
 
-## 3. Dataset in the Project
+KMeans clustering is an unsupervised machine learning algorithm that makes inferences from datasets without referring to a known outcome. It aims to identify underlying patterns in a dataset by looking for a fixed number of clusters, (known as k). The required number of clusters is chosen by the person building the model. KMeans was used in this project to classify the protein IDs (or RefSeq_IDs) into clusters. Each cluster was designed to be associated with related protein IDs.
 
-KMeans clustering is an unsupervised machine learning algorithm that makes inferences from datasets without referring to a known outcome. It aims to identify underlying patterns in a dataset by looking for a fixed number of clusters , (known as k). The required number of clusters is chosen by the person building the model. KMens was used in this project to classify the protein IDs (or RefSeq_IDs) into clusters. Each cluster was designed to identify related protein IDs.
+Three datasets were used for the algorithm. The first and main dataset was a proteomic dataset. It contained published iTRAQ proteome profiling of 77 breast cancer samples generated by the Clinical Proteomic Tumor Analysis Consortium (NCI/NIH). Each sample contained expression values for ~12000 proteins, with missing values present when a given protein could not be quantified in a given sample. The variables in the dataset included the RefSeq_accession_number(also known as RefSeq protein ID), "the gene_symbol" (which was unique to each gene), “the gene_name” (which was the full name of the gene). The remaining columns were the log2 iTRAQ ratios for each of the 77 samples while the last three columns are from healthy individuals.
 
-Three datasets were used for the algorithm. The first and main dataset was a proteomic dataset. It contains published iTRAQ proteome profiling of 77 breast cancer samples generated by the Clinical Proteomic Tumor Analysis Consortium (NCI/NIH). It contains expression values for ~12.000 proteins for each sample, with missing values present when a given protein could not be quantified in a given sample. The variables include the RefSeq_accession_number(also known as RefSeq protein ID), "the gene_symbol" (which is unique to each gene), “the gene_name” (which is the full name of the gene). The remaining columns are the log2 iTRAQ ratios for each of the 77 samples while the last three columns are from healthy individuals.
+The second dataset was a PAM50 dataset. It contained the list of genes and proteins used in the PAM50 classification system. The variables include the RefSeqProteinID which matched the Protein IDs(or RefSeq_IDs) in the main proteome dataset. 
 
-The second dataset was a PAM50 dataset. It contains the list of genes and proteins used in the PAM50 classification system. The variables include the RefSeqProteinID which matches the Protein IDs in the main proteome dataset. 
-
-The third dataset was a clinical data of about 105 clinical of which the 77 breast cancer samples were extracted from after a `.`. The variables are:
+The third dataset was a clinical data of about 105 clinical breast cancer samples.  77 of the breast cancer samples were the samples in the first dataset. The excluded samples were as a result of protein degradation[^8]. The variables in the dataset are:
 ‘Complete TCGA ID', 'Gender', 'Age at Initial Pathologic Diagnosis', 'ER Status', 'PR Status', 'HER2 Final Status', 'Tumor', 'Tumor--T1 Coded', 'Node', 'Node-Coded', 'Metastasis', 'Metastasis-Coded', 'AJCC Stage', 'Converted Stage', 'Survival Data Form', 'Vital Status', 'Days to Date of Last Contact', 'Days to date of Death', 'OS event', 'OS Time', 'PAM50 mRNA', 'SigClust Unsupervised mRNA', 'SigClust Intrinsic mRNA', 'miRNA Clusters', 'methylation Clusters', 'RPPA Clusters', 'CN Clusters', 'Integrated Clusters (with PAM50)', 'Integrated Clusters (no exp)', 'Integrated Clusters (unsup exp).'
 
+During the preparation of the datasets for KMeans analysis, unused columns like "gene_name" and "gene_symbol"  were removed in the first dataset. The first and third dataset were merged together. Prior to merging, the variable 'Complete TCGA ID' in the third dataset was found to be the same as the TCGAs in the first dataset. The Complete TCGA ID refered to a breast cancer patient, some patients were found in both datasets. The TCGA ID in the first dataset was renamed to match with the TCGA of the third dataset, thereby giving the same syntax. The first dataset was also transposed as a row and its gene expression as the columns. These processes were done in order to merge both dataset efficiently.
 
-## 4. The KMeans Approach
+After merging, the "PAM5O RNA" variable from the second dataset was selected to join the merged dataset. This single dataset was named "pam50data". It contained all the variables that were needed for KMeans Analysis which included the 12553 unique genes, the complete TCGA ID of each 80 patient, and their molecular tumor type.Missing values were imputed into the pam50data using SimpleImputer. Then, KMeans clustering was performed. The metrics were tested with cluster numbers of 3, 4, 5, 20 and 79. The bigger numbers (20 and 79) were tested just for comparison.Further details on the codes written can be in [^7]. Also, [^8] and [^9] were kernels that provided insgishts for the code
 
-The link to the original study where the samples were used <http://www.nature.com/nature/journal/v534/n7605/full/nature18003.html>
-The referred kernals for the code <https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis> and <https://pastebin.com/A0Wj41DP>
 
-- [ ] the code must be put into the github and the link to the github notbook used. In addition you can put in the colab link
+## 5. Results and Images
 
-- [ ] next sentence unclear because of `.`
+Several codes were written to determine the best number of clusters for the model. The effectiveness of a cluster is often measured by scores such as silhouette score, homogeneity score and adjusted rand score.
 
-During the preparation of the datasets for KMeans analysis, the first and third dataset were merged together, while `.` The variable 'Complete TCGA ID' in the third dataset was found to be the same as the TCGAs in the first dataset. The Complete TCGA ID refers to a breast cancer patient, some patients can be found in both datasets. The TCGA ID in the first dataset was renamed to match with the TCGA of the third dataset, thereby giving the same syntax. The first dataset was also transposed as a row and its gene expression as the columns. These processes were done in order to merge both dataset.
+The silhouette score for a cluster of  3, 4, and 5, 8, 20 and 79 were 0.143, 0.1393, 0.1193, 0.50968, 0.0872, 0.012 while the homogenenity scores were 0.4635, 0.4749, 0.1193, 0.5617, 0.6519 and 1.0 respectively.  The homogeneity score for 79 is 1.0 since the algorithm can assign all the points into sepearate clusters. However, it is not efficient for the dataset we used.
 
-After merging, the "PAM5O RNA" variable from the second dataset was selected to join the merged dataset. This single dataset was named "pam50data". It contained all the variables that were needed for KMeans Analysis which included the 12553 unique genes, the complete TCGA ID of each 80 patient, and their molecular tumor type.
-
-Missing values were imputed using SimpleImputer, the number of clusters that works best were determined. Figures 1 and 2 reveals the result for KMeans clustering using 3 and 5 clusters respectively.
-
-The link to the full code for the algorithm <https://colab.research.google.com/drive/1ETvGu_cMFlATT28LrHdWgRFahBv9gStN#scrollTo=Qu6nLUiudcYa>
-
-- [ ] the code must be put into the github and the link to the github notbook used. In addition you can put in the colab link
-
-## 5. Using Images
-
-- [ ] the section heder `Using Images` makes no sense. IT was used in an example paper weher we expalined how to use images in a paper, are you trying to explain to us how to use images in a paper?
-
-- [ ] Figures must have at leas one sentence in the text explaining what they show while refering to the figure
+A cluster of 3 works good since the silhouette score is high and the homogeneity sscore jumps ~2-fold. 
+Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.
 
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png)
 
@@ -108,20 +95,18 @@ The link to the full code for the algorithm <https://colab.research.google.com/d
 
 ## 6. Benchmark
 
-- [ ] no expalnation provides
-- [ ] no explanation which hardware is used
-- [ ] time does not have a unit
+The benchmark is run within yfinance-lstm.ipynb located in the project's code[^12]. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. Table 1 lists the amount of time taken to loop for n_components. The n_components is gotten from the code and it refers to the features of the dataset.
 
-| Name        | Status  | Time  |
-|-------------|---------|-------|
-| parallel 1  |   ok    | 0.647 |
-| parallel 3  |   ok    | 0.936 |
-| parallel 5  |   ok    | 0.952 |
-| parallel 7  |   ok    | 0.943 |
-| parallel 9  |   ok    | 1.002 |
-| parallel 11 |   ok    | 0.991 |
-| parallel 13 |   ok    | 0.958 |
-| parallel 15 |   ok    | 1.012 |
+| Name        | Status  | Time(s)  |
+|-------------|---------|-------   |
+| parallel 1  |   ok    | 0.647    |
+| parallel 3  |   ok    | 0.936    |
+| parallel 5  |   ok    | 0.952    |
+| parallel 7  |   ok    | 0.943    |
+| parallel 9  |   ok    | 1.002    |
+| parallel 11 |   ok    | 0.991    |
+| parallel 13 |   ok    | 0.958    |   
+| parallel 15 |   ok    | 1.012    |
 
 **Benchmark:** The table shows the parallel process time take the for loop for n_components. 
  
@@ -133,11 +118,11 @@ The results of the KMeans analysis indicated that a cluster of 3 is better than 
 
 ## 8. Acknowledgments
 
-- [ ]  This needs to have a full sentence/paragraph
+- [ ]  This projected was immensely supported by Dr. Gregor von Laszewski
+- [ ]  Also, the contribution, support, help and advice I received from the REU  Instructors cannot be overemphasized. I truly appreciate Carlos Theran, Yohn Jairo and Victor Adankai for their great assistance and teachings.
+- [ ]  I am also grateful to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa
+- [ ]  Lastly, I’m grateful to Dr. Byron Greene,  the Florida A&M University, the Indiana University and Bethune Cookman University  for giving me a platform to be able to learn new things and embark on new projects
 
-- [ ] Gregor guided me through this process
-- [ ] REU Instructors - Carlos Theran, Yohn Jairo, Victor Adankai
-- [ ] Jacques Fleischer, David Umanzor
 
 ## 9. References
 
@@ -157,5 +142,10 @@ The results of the KMeans analysis indicated that a cluster of 3 is better than 
 
 [^8]: Salod, Zakia, and Yashik Singh. "Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol." Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677Articles
 
+[^8]: Mertins, Philipp et al. "Proteogenomics connects somatic mutations to signalling in breast cancer." Nature vol. 534,7605 (2016): 55-62. doi:10.1038/nature18003
+
 [^9]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
       <https://github.com/cloudmesh/cloudmesh-common>
+The link to the full code for the algorithm <https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/code/final_breastcancerproject.ipynb>
+The link to the original study where the samples were used <http://www.nature.com/nature/journal/v534/n7605/full/nature18003.html>
+The referred kernals for the code <https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis> and <https://pastebin.com/A0Wj41DP>
