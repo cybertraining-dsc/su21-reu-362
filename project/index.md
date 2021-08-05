@@ -109,10 +109,10 @@ This model can be improved on and if proven to show that there truly exist a rel
 
 ## 8. Acknowledgments
 
-- [ ]  This projected was immensely supported by Dr. Gregor von Laszewski
+- [ ]  This projected was immensely supported by Dr. Gregor von Laszewski.
 - [ ]  Also, the contribution, support, help and advice I received from the REU  Instructors cannot be overemphasized. I truly appreciate Carlos Theran, Yohn Jairo and Victor Adankai for their great assistance and teachings.
-- [ ]  I am also grateful to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa
-- [ ]  Lastly, I’m grateful to Dr. Byron Greene,  the Florida A&M University, the Indiana University and Bethune Cookman University  for giving me a platform to be able to learn new things and embark on new projects
+- [ ]  I am also grateful to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa.
+- [ ]  Lastly, I’m grateful to Dr. Byron Greene,  the Florida A&M University, the Indiana University and Bethune Cookman University  for giving me a platform to be able to learn new things and embark on new projects.
 
 
 ## 9. References
