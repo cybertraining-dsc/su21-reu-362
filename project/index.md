@@ -75,11 +75,11 @@ The silhouette score for a cluster of  3, 4, and 5, 8, 20 and 79 were 0.143, 0.1
 
 Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png)
+![Figure 1](<https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png>)
 
 **Figure 1:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3). Each data point represnt the expression value for the genes that were used for clustering.
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/k%3D4_image.png)
+![Figure 2](<https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/k%3D4_image.png>)
 
 **Figure 2:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=4). Each data point represnt the expression value for the genes that were used for clustering.
 
@@ -96,7 +96,7 @@ This program was executed on a Google Colab server and the entire runtime took 1
 | parallel 7  |   ok    | 0.943    |
 | parallel 9  |   ok    | 1.002    |
 | parallel 11 |   ok    | 0.991    |
-| parallel 13 |   ok    | 0.958    |   
+| parallel 13 |   ok    | 0.958    |
 | parallel 15 |   ok    | 1.012    |
 
 **Benchmark:** The table shows the parallel process time take the for loop for n_components. 
