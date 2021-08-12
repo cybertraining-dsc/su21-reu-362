@@ -74,11 +74,12 @@ The silhouette score for a cluster of  3, 4, and 5, 8, 20 and 79 were 0.143, 0.1
 
 Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.
 
-![Figure 1](<https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png>)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/new.png)
+
 
 **Figure 1:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3). Each data point represnt the expression value for the genes that were used for clustering.
 
-![Figure 2](<https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/k%3D4_image.png>)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/k%3D4_image.png)
 
 **Figure 2:** The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=4). Each data point represnt the expression value for the genes that were used for clustering.
 
@@ -108,10 +109,10 @@ This model can be improved on and if proven to show that there truly exist a rel
 
 ## 8. Acknowledgments
 
-- [ ]  This projected was immensely supported by Dr. Gregor von Laszewski.
-- [ ]  Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.
-- [ ]  Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.
-- [ ]  Lastly, appreciation to Dr. Byron Greene, the Florida A&M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects. 
+This projected was immensely supported by Dr. Gregor von Laszewski.
+Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.
+Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.
+Lastly, appreciation to Dr. Byron Greene, the Florida A&M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects. 
 
 
 ## 9. References
