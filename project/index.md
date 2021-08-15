@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Investigating the Classification of Breast Cancer Subtypes using KMeans"
 linkTitle: AI in Healthcare
-tags: ["project", "reu"]
+tags: ["project", "reu", "ai", "health"]
 description: "This project provides an insight into an investigation of the classification of breast cancer sub-types using proetomic dataset through a machine learning approach." 
 author: Kehinde, Ezekiel
 github_url: https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md
