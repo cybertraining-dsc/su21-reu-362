@@ -136,7 +136,7 @@ Lastly, appreciation to Dr. Byron Greene, the Florida A&M University, the Indian
 
 [^9]: Kehinde Ezekiel, Project Code, <https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/code/final_breastcancerproject.ipynb>
 
-[^10]: Kaggle_breast_cancer_proteomes <<https://pastebin.com/A0Wj41DP>
+[^10]: Kaggle_breast_cancer_proteomes <https://pastebin.com/A0Wj41DP>
 
 [^11]: Proteomes_clustering_analysis <https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis>
 
