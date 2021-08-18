@@ -1,12 +1,12 @@
 ---
 owner:
-  firstname: "Ezekiel"
-  lastname: "Kehinde"
+  firstname: "Kehinde"
+  lastname: "Ezekiel"
   hid: "su21-reu-362"
   community: "reu"
-  semester: "sp21"
-project: "Artificial Intelligence in Healthcare"
+  semester: "su21"
+project:
   title: "Investigating the Classification of Breast Cancer Molecular Subtypes using KMeans"
-  url: https://cybertraining-dsc.github.io/report/su21-reu-362/project/
+  url: "https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md"
   author:
     - su21-reu-362
