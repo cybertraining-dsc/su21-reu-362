@@ -70,7 +70,7 @@ After merging, the "PAM5O RNA" variable from the second dataset was selected to 
 
 Several codes were written to determine the best number of clusters for the model. The effectiveness of a cluster is often measured by scores such as silhouette score, homogeneity score and adjusted rand score.
 
-The silhouette score for a cluster of  3, 4, and 5, 8, 20 and 79 were 0.143, 0.1393, 0.1193, 0.50968, 0.0872, 0.012 while the homogenenity scores were 0.4635, 0.4749, 0.1193, 0.5617, 0.6519 and 1.0 respectively.  The homogeneity score for 79 is 1.0 since the algorithm can assign all the points into sepearate clusters. However, it is not efficient for the dataset we used. A cluster of 3 works best since the silhouette score is high and the homogeneity score jumps ~2-fold. 
+The silhouette score for a cluster of 3, 4, and 5, 8, 20 and 79 were 0.143, 0.1393, 0.1193, 0.50968, 0.0872, 0.012 while the homogenenity scores were 0.4635, 0.4749, 0.1193, 0.5617, 0.6519 and 1.0 respectively.  The homogeneity score for 79 is 1.0 since the algorithm can assign all the points into sepearate clusters. However, it is not efficient for the dataset we used. A cluster of 3 works best since the silhouette score is high and the homogeneity score jumps ~2-fold. 
 
 Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.
 
