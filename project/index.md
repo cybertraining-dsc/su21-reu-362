@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Investigating the Classification of Breast Cancer Subtypes using KMeans"
+title: "Investigating the Classification of Breast Cancer Subtypes Using KMeans"
 linkTitle: AI in Healthcare
 tags: ["project", "reu", "ai", "health"]
 description: "This project provides an insight into an investigation of the classification of breast cancer sub-types using proetomic dataset through a machine learning approach." 
