@@ -6,7 +6,7 @@ owner:
   community: "reu"
   semester: "su21"
 project:
-  title: "Investigating the Classification of Breast Cancer Molecular Subtypes using KMeans"
+  title: "Investigating the Classification of Breast Cancer Molecular Subtypes Using KMeans"
   url: "https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md"
   author:
     - su21-reu-362
