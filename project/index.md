@@ -109,10 +109,13 @@ This model can be improved on and if proven to show that there truly exist a rel
 
 ## 8. Acknowledgments
 
-This projected was immensely supported by Dr. Gregor von Laszewski.
+This project was immensely supported by Dr. Gregor von Laszewski under the NSF grant
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
 Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.
 Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.
 Lastly, appreciation to Dr. Byron Greene, the Florida A&M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects. 
+
 
 
 ## 9. References
